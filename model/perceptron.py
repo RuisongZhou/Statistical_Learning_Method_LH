@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-# @auther: RuisongZhou\
+# @auther: RuisongZhou
 # @date: 1/15/2018
+
+# 实现二分类感知机模型
 
 import pandas as pd
 import numpy as np
@@ -12,7 +14,7 @@ import time
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-class perception(object):
+class perceptron(object):
     def __init__(self):
         self.learning_step = 0.001
         self.max_iteration = 5000
@@ -66,7 +68,7 @@ if __name__ == '__main__':
     print ('read data cost ', time_2 - time_1, ' second', '\n')
 
     print ('Start training')
-    model = perception()
+    model = perceptron()
     model.train(train_features, train_labels)
     time_3 = time.time()
     print('training cost ', time_3 - time_2, ' second', '\n')
