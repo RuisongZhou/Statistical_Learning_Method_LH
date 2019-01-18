@@ -19,7 +19,7 @@ class knn(object):
         self.trainset = None
         self.lables = None
     def get_hog_features(self, trainset):
-        features = [];
+        features = []
         hog = cv2.HOGDescriptor("./hog.xml")
 
         for img in trainset:
