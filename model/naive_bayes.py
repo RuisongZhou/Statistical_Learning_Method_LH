@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 # @auther: RuisongZhou
-# @date: 1/1/2018
+# @date: 1/16/2018
 
 # 实现朴素贝叶斯模型
 
