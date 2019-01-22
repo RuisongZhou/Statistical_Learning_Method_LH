@@ -4,6 +4,7 @@
 # @date: 1/22/2018
 
 #实现最大熵模型
+#这模型贼慢
 
 import pandas as pd
 import numpy as np
@@ -154,8 +155,8 @@ if __name__ == "__main__":
     train_features, test_features, train_labels, test_labels = train_test_split(
         imgs, labels, test_size=0.33, random_state=23323)
 
-    train_features = rebuild_features(train_features)
-    test_features = rebuild_features(test_features)
+    #train_features = rebuild_features(train_features)
+    #test_features = rebuild_features(test_features)
 
     time_2 = time.time()
     print ('read data cost ', time_2 - time_1, ' second', '\n')
