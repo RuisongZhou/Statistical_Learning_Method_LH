@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 # @auther: RuisongZhou
-# @date: 1/22/2018
+# @date: 1/22/2019
 
 # 实现支持向量机模型
 

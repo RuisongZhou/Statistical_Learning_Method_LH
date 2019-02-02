@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 # @auther: RuisongZhou
-# @date: 1/23/2018
+# @date: 1/23/2019
 
 # 实现adamboost模型
 

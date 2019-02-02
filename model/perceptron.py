@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 # @auther: RuisongZhou
-# @date: 1/15/2018
+# @date: 1/15/2019
 
 # 实现二分类感知机模型
 
